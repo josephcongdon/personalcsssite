@@ -1,0 +1,226 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 10px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+#navbarNav{
+  padding-right: 55px;
+}
+
+.navbar-brand {
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #66BFBF;
+  margin-left: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  color:  #66BFBF;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #e5e4cc;
+  position: relative;
+}
+
+/*#7fa998  #dcffcc*/
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skills {
+
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.newsletter {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.contact-me {
+
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  position: relative;
+  padding: 35px 0px 15px;
+  margin-bottom: 0px;
+  color: #11999E;
+}
+
+.udemy-certificate{
+  height:500px;
+  width: 650px;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-left: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.mountain {
+  position: relative;
+  top: 5px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 40px;
+}
+
+.grey-joe {
+  border-radius: 300px;
+  width: 300px;
+  height: 400px;
+  margin: 100px;
+}
+
+.coffee {
+  border-radius: 80%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.book {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 640px;
+}
+
+.guitar {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 380px;
+}
+
+.yoda {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.button {
+  background: linear-gradient(to bottom, #05fcf0 5%, #02cfc5 100%);
+  background-color: #05fcf0;
+  border-radius: 11px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  padding: 12px 31px;
+  text-decoration: none;
+  margin: 10px 0 65px 0;
+}
+
+.button:hover {
+  background: linear-gradient(to bottom, #02cfc5 5%, #05fcf0 100%);
+  background-color: #02cfc5;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.footer {
+  background-color: #66BFBF;
+  position: relative;
+  text-align: left;
+}
+
+.signature {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  margin: 5px 0px;
+}
