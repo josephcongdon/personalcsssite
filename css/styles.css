@@ -81,9 +81,6 @@ p {
   margin: auto;
 }
 
-.skills {
-
-}
 
 .skill-row {
   width: 50%;
@@ -143,17 +140,44 @@ a:hover {
   top: 5px;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-}
-
 .top-cloud {
   position: absolute;
   margin-left: 250px;
   margin-top: 40px;
+  animation: animate 9s linear infinite;
 }
+
+
+.mid-cloud{
+  position: absolute;
+  top: 400px;
+  left: 700px;
+  animation: animate 8s linear infinite;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  animation: animate 7s linear infinite;
+}
+@keyframes animate
+{
+  0%
+  {
+    transform: translateX(-100%);
+    opacity: .1;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%
+  {
+    transform: translateX(100%);
+    opacity: .1;
+  }
+}
+
 
 .grey-joe {
   border-radius: 300px;
